@@ -92,6 +92,11 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+.nav-links li > .nav-link::after,
+.nav-links li:visited > .nav-link::after {
+    transform: scaleX(0);
+}
+
 .nav-links li:hover > .nav-link::after,
 .nav-links li:active > .nav-link::after {
     transform: scaleX(1);
