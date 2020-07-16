@@ -92,7 +92,8 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
-.nav-links li:hover > .nav-link::after {
+.nav-links li:hover > .nav-link::after,
+.nav-links li:active > .nav-link::after {
     transform: scaleX(1);
 }
 
@@ -361,7 +362,7 @@ html {
 
 .contact-links .contact-link:hover,
 .contact-links .contact-link:active {
-    color: #fdb8ed;
+    color: #ff99e7;
     text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
