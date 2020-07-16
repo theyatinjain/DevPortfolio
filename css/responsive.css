@@ -50,6 +50,10 @@
         padding: 2rem 0;
     }
 
+    .nav-links li .nav-link::after {
+        height: 3px;
+    }
+
     .hero .hero-title {
         font-size: 5rem;
     }

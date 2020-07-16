@@ -86,16 +86,11 @@ html {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 3px;
+    height: 5px;
     width: 100%;
     background-color: #ffbc02;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
-}
-
-.nav-links li > .nav-link::after,
-.nav-links li:visited > .nav-link::after {
-    transform: scaleX(0);
 }
 
 .nav-links li:hover > .nav-link::after,
